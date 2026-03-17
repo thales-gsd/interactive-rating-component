@@ -1,0 +1,8 @@
+.icon {
+    background-color: #272E38;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}

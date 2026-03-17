@@ -4,7 +4,8 @@ export function RatingFormRadioInput({ value, selectedValue, onChange }) {
   const isChecked = String(value) === String(selectedValue);
 
   return (
-    <label className={`rating ${isChecked ? 'active' : ''}`}>
+    <label className={`radio-label ${isChecked ? 'active' : ''}`}>
+      <p>{value}</p>
       <input
         type="radio"
         name="rating"

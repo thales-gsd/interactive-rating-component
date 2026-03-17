@@ -1,0 +1,36 @@
+.radio-label {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272E38;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.radio-label p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    pointer-events: none;
+}
+
+.radio-label:hover {
+    color: hsl(213, 19%, 18%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.radio-label.active {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.radio-input {
+    display: none;
+}

@@ -17,7 +17,7 @@ export function RatingForm({ setSubmit, setRating, rating, options }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='form-container' onSubmit={handleSubmit}>
       <div className="options-conteiner">
         {options.map((op) => (
           <RatingFormRadioInput
@@ -34,7 +34,7 @@ export function RatingForm({ setSubmit, setRating, rating, options }) {
 
       {error && <RatingFormError />}
 
-      <button type="submit">SUBMIT</button>
+      <button type="submit" className='buttom'>SUBMIT</button>
     </form>
   )
 };
